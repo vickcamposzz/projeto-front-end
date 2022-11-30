@@ -36,5 +36,31 @@
             </main>
         </div>
         </header>
+        <header class="titulo">
+            <h1>CONTATO</h1>
+        </header>
+        <div class="contact-wrap">
+            <div class="form-wrapper">
+              <div class="form-div">
+                <form id="form">
+                  <div class="input-wrap">
+                    <input type="text" name="name" class="feedback-input" placeholder="Nome *" maxlength="33" required/>
+                    <input type="tel" name="phone" class="feedback-input" placeholder="Número para contato *" maxlength="33" required/>
+                  </div>
+                  <div class="inform">
+                    <input type="cidade" name="cidade" class="feedback-input" placeholder="Cidade *" maxlenght="33" required/>
+                    <input type="sexo" name="sexo" class="feedback-input" placeholder="Sexo *" maxlength="33" required/>
+                  </div>
+                  <input type="email" name="email" class="feedback-input" placeholder="Email *" maxlength="99" required/>
+                  <textarea name="message" class="feedback-input message" placeholder="Motivo do contato *" maxlength="999" required></textarea>
+                  <div class="checkbox-wrap">
+                    <input id="send-checkbox" type="checkbox" name="checkbox" class="checkbox" required/>
+                    <label class="captcha" for="send-checkbox">I'm a human *</label>
+                  </div>
+                  <button type="submit" class="send-button">Enviar</button>
+                </form>
+              </div>
+            </div>
+        </div>
     </body>
 </html>
