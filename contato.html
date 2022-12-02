@@ -48,11 +48,35 @@
                     <input type="tel" name="phone" class="feedback-input" placeholder="Número para contato *" maxlength="33" required/>
                   </div>
                   <div class="inform">
-                    <input type="cidade" name="cidade" class="feedback-input" placeholder="Cidade *" maxlenght="33" required/>
-                    <input type="sexo" name="sexo" class="feedback-input" placeholder="Sexo *" maxlength="33" required/>
+                    <label for="Estado"><Strong>Estado *</Strong></label>
+                    <select id="Estado" class="inputs">
+                        <option selected>Selecione</option>
+                        <option>Tocantins</option>
+                        <option>Acre</option>
+                        <option>Amapá</option>
+                        <option>Roraima</option>
+                        <option>Amazonas</option>
+                        <option>Pará</option>
+                        <option>Rondônia</option>
+                    </select>
+                    <label for="Gênero"><Strong>Gênero *</Strong></label>
+                    <select id="Gênero" class="inputs">
+                        <option selected>Selecione</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                        <option>Não binario</option>
+                        <option>Não quero informar</option>
+                    </select>
                   </div>
                   <input type="email" name="email" class="feedback-input" placeholder="Email *" maxlength="99" required/>
                   <textarea name="message" class="feedback-input message" placeholder="Motivo do contato *" maxlength="999" required></textarea>
+                  <label for="opção"><Strong>Motivo</Strong></label>
+                  <select id="opção" class="inputs">
+                    <option selected>Selecione</option>
+                    <option>Elogio</option>
+                    <option>Duvidas</option>
+                    <option>Outros</option>
+                  </select>
                   <div class="checkbox-wrap">
                     <input id="send-checkbox" type="checkbox" name="checkbox" class="checkbox" required/>
                     <label class="captcha" for="send-checkbox">I'm a human *</label>
@@ -62,5 +86,9 @@
               </div>
             </div>
         </div>
+        <footer class="rodape">
+            <p class="rodape">Site desenvolvido por Zaydanne Castro e <a class="link" href="https://github.com/exowies"> Victor Hugo</a> pela matéria de <a class="link" href="https://www.unitins.br/PortalAluno/Account/Login?ReturnUrl=%2fPortalAluno">Front End</a> Unitins
+           </a></p>
+         </footer>
     </body>
 </html>
