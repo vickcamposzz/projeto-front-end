@@ -34,6 +34,13 @@ border-bottom: 3px solid #efefef;
 width: 100%;
 float: left;
 }
+.titulo{
+  background-color: #FDD5B1;
+  font-family: 'Source Sans Pro',Arial;
+    color: #555;
+    text-align: center;
+    margin-top: 15px;
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -85,7 +92,7 @@ float: left;
     margin-top: 10px;
     font-size: 14px;
     color: #f3722c;
-  }
+  } 
 .rodape
 {
  background-color: #FDD5B1;
