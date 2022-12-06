@@ -21,7 +21,14 @@ border-bottom: 3px solid #efefef;
 
 .menu ul li a:hover {
     color: #8b0000;
-    
+
+}
+.titulo{
+  background-color: #FDD5B1;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#8b0000;
+  text-align: center;
+      margin-top: 15px;
 }
 *{
     box-sizing: border-box;
